@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Riley Mother Baby Hospital</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+       <link href="css/custom.css" rel="stylesheet">
+       <link href="css/sidebar.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    
+  </head>
+  <body>
+
+    <div class="navbar navbar-fixed-top navbar-default">
+    <div class="navbar-header">
+      
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse" >
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button> 
+           <a class="navbar-brand" rel="home" href="index.html" title="Mother Baby">
+        <img class="visible-lg img-responsive" style="max-width:150px; margin-top: -15px; margin-left:55px;"
+             src="images/logo.png" >
+    </a>
+  </div>
+        <div class="navbar-collapse collapse navbar-right">
+            <ul class="nav navbar-nav">
+                <li ><a href="index.html">Home</a>
+                </li>
+                <li><a href="overview.html">Programs & Services</a>
+                </li>
+                <li ><a href="tour.html">Tour</a>
+                </li>
+                 <li class="active"><a href="stories.html">Stories</a>
+                </li>
+                 <li><a href="information.html">Information</a>
+                </li>
+                <li><a href="#">Help Now</a>
+                </li>
+                 <li><a href="contact.html">Contact Us</a></li>
+                
+            </ul>
+        </div>
+        <!--/.navbar-collapse -->
+</div>
+<div class="container-fluid">
+<div class="jumbotron">
+ <h2>Stories </h2>
+</div>
+	<div id="wrapper">
+   
+	
+    	<div class="row">
+        	<div class="container">
+    				
+                    <p>Greetings to all the friends of Riley Mother and Baby Hospital in Eldoret, Kenya. I am Bett Kipchumba and my wife is called Loice Jepkemboi Barmasai. Thanks to the Riley Mother Baby Hospital we now have a son, Christian Kipchirchir Barngetuny, who was born Christmas Eve 2009.</p>
+                
+
+<p>I am a medical officer who currently works at the Riley Mother Baby Hospital in Kenya and my wife, Loice, is a nurse at Moi Teaching and Referral hospital. Our son was born prematurely at 31 weeks of gestation. He weighed less than 1300 grams at birth! When my wife went into active labor, we knew the worst of the news was yet to unfold. We knew there would be problems with his lungs and we were not sure what else could be wrong due to his immaturity.</p>
+
+<p>At midnight, Loice gave birth without any complication and we immediately decided on the name Christian for our child. When he was born, the physician rushed him to the Professor James A. Lemons neonatal until. He was put in an incubator until he weighed 1550g. At that point, he was transferred to a bassinette in the nursery. In total, he stayed in the hospital for 30 days. What a happy day it was when we were able to take him home! As of this writing, he is doing so well and weights 3 kilograms!</p>
+
+<p>Loice and I were fortunate. We wonder what if there was no established neonatal unit in Eldoret. What could have happened to Christian and the many other neonates who need the care Christian received? What would have happened to all the other premature babies? What would have happened to all the asphyxiated babies? What would have happened to mothers who have tried to conceive only to get preterm babies? Who would hear their cries?</p>
+
+<p>I long for that day Christian will stand and say, "I salute you all (men and women) who worked tirelessly to see Riley Mother Baby Hospital of Kenya what it is today. I am a product of this wonderful hospital and in me you are immortalized".</p>
+
+<p>From me and Loice, we can only say, “Professor James Lemons, YOUR HEART IS LARGER THAN LIFE!” Say a big thank you to all those who supported this noble initiative in whichever way they did. God bless you all.</p>
+                    
+                    
+                    
+             </div>
+                        
+                 
+            
+            
+    
+   	  </div><!-- row -->
+
+
+</div><!-- wrapper -->
+    
+</div>
+<!--Container -->
+	
+   
+
+<!---->
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+<script>
+
+
+
+
+$('.button-nav-toggle').on('click', function(e) {
+    e.preventDefault();
+    e.stopPropagation();
+
+    $('.menu').toggleClass('open');
+
+    $(document).one('click', function closeMenu (e){
+        if($('.menu').has(e.target).length === 0){
+            $('.menu').removeClass('open');
+        } else {
+            $(document).one('click', closeMenu);
+        }
+    });
+});
+ 
+  
+
+
+
+
+ 
+ 
+</script>
+
+  
+  </body>
+</html>
